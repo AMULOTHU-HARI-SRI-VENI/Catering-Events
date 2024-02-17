@@ -1,0 +1,46 @@
+.component-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed for the gap between components */
+  }
+  
+  .text-container {
+    flex: 1;
+    padding-right:10px; /* Adjust as needed for spacing between text and image */
+  }
+  .text-container p {
+    width: 500px; /* Adjust the width as needed */
+  }
+
+  .text-container h1{
+    color:darkgreen;
+    font-size: 60px;
+    font-weight:lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .image-container {
+
+    flex-shrink: 0;
+    margin-left: 50;
+  }
+  
+  .image-container img {
+    flex:50%;
+    max-width:50%;
+    height: auto;
+    
+    border-top-right-radius: 50px;
+  }
+
+  h1 {
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+
+  p{
+    
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  

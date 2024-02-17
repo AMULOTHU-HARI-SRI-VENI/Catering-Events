@@ -1,0 +1,45 @@
+.home-page {
+    padding: 20px;
+  }
+
+  ul {
+  list-style-type: none;
+}
+
+  .links-container {
+    display: flex;
+  }
+  
+  .left-links, .right-links {
+    display: flex;
+    color:black
+  }
+  
+  .link {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+  
+  .link:last-child {
+    margin-right: 0; /* Remove margin from last link */
+  }
+  
+  .link .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f2eeee;
+    color:black ;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  
+  .link:hover .dropdown-content {
+    display: block;
+  }
+  
+  a{
+    text-decoration: none;
+  }

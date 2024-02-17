@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .image-section {
+    flex: 1;
+    /* Adjust styles for image section */
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: 50%;
+    display: block;
+  }
+  
+  .signup-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adjust styles for signup section */
+  }
+  
+  .signup-section button {
+    padding: 30px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .signup-section spacer{
+    height:20px;
+  }
+
+  .signup-section button{
+    
+        display: block;
+        margin-top: 10px; /* Adjust the spacing between text and button */
+      
+  }
+  
